@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400i,700,700i|Didact+Gothic");
+.theme-night-blossom.presentation,
+.theme-night-blossom.full-presentation {
+    background-image: url("/assets/themes/night-blossom.jpg");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.theme-night-blossom .slide {
+    color: #fff;
+    text-align: left;
+    font-family: "Alegreya Sans", "Cambria", "Garamond", 'Georgia', Times, serif;
+    padding: 0.25em;
+}
+
+.theme-night-blossom .slide-content {
+  font-size: .9em;
+}
+
+
+.theme-night-blossom a {
+    color: #ffee26;
+}
+
+.theme-night-blossom h1,
+.theme-night-blossom h2,
+.theme-night-blossom h3,
+.theme-night-blossom h4,
+.theme-night-blossom h5 {
+    font-family: "Didact Gothic", "Helvetica Neue", Arial, sans-serif;
+}
+
+.theme-night-blossom .slide-content>p,
+.theme-night-blossom .slide-content>blockquote,
+.theme-night-blossom .slide-content>ol,
+.theme-night-blossom .slide-content>ul {
+    width: 100%;
+}
+
+.theme-night-blossom #slide-0 {
+    font-size: 130%;
+}
+
+/* .theme-night-blossom p,
+.theme-night-blossom ol,
+.theme-night-blossom ul {
+    margin: 0 auto;
+} */
+
+/* .theme-night-blossom li {
+    margin-bottom: 0.5em;
+}
+
+.theme-night-blossom pre {
+    margin-top: 0.5rem;
+} */

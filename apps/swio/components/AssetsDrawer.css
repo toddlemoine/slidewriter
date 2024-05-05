@@ -1,0 +1,42 @@
+.assets-drawer {
+    background: hsla(0, 0%, 88%, 1);
+;
+    padding: 0;
+    border: 1px solid hsl(0, 0%, 81%);
+    border-left: none;
+    border-right: none;
+}
+
+.assets-drawer-buttonbar {
+    display: flex;
+    padding: .5rem;
+}
+
+.assets-drawer-buttonbar .primary-button {
+    font-size: .8rem;
+    padding: .35rem .5rem;
+}
+
+.assets-drawer-preview-list {
+    display: flex;
+    list-style: none;
+    overflow: auto;
+}
+
+.assets-drawer-preview-list li {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    margin-right: .25rem;
+}
+
+.assets-drawer-preview-list [aria-pressed="true"] {
+    transform: scale(.9);
+    border: 3px solid hsla(208, 99%, 53%, 1);
+}
+
+.assets-drawer-preview-list img,
+.assets-drawer-preview-list button {
+    width: auto;
+    height: 100%;
+}

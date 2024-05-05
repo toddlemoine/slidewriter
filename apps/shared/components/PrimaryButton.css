@@ -1,0 +1,12 @@
+.primary-button {
+    font-size: inherit;
+    /* background: hsla(208, 100%, 43%, 1); */
+    background: hsla(208, 99%, 53%, 1);
+    color: #fff;
+}
+
+.primary-button:hover, 
+.primary-button:focus {
+    color: #fff;
+    background: hsla(208, 99%, 48%, 1);
+}

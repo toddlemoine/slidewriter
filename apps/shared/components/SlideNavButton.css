@@ -1,0 +1,9 @@
+.slide-nav-button {
+    font-size: .725rem;
+    padding: .2125rem .6125rem;
+    border-radius: .125rem;
+    background: rgb(200, 208, 216);
+    color: hsla(210, 17%, 30%, 1);
+}
+
+

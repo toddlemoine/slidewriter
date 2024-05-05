@@ -1,0 +1,71 @@
+.files-action-menu {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .files-action-menu .trigger {
+    cursor: pointer;
+    display: inline-block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-weight: bold;
+    padding: .4rem .625rem;
+    border-radius: .125rem;
+  }
+  
+  .files-action-menu .trigger:hover,
+  .files-action-menu .trigger:focus,
+  .files-action-menu .trigger.is-open {
+    border-color: #CCC;
+    background-color: #0088fe;
+    color: #fff;
+  }
+  
+  .files-action-menu .trigger[aria-disabled=true] {
+      opacity: .35;
+  }
+
+  .files-action-menu .trigger[aria-disabled=true]:hover, 
+  .files-action-menu .trigger[aria-disabled=true]:focus {
+      background-color: transparent;
+      background-image: none;
+      border-color: transparent;
+  }
+  
+  .files-action-menu .menu {
+    background: #fff;
+    border: 1px solid rgba(200, 200, 200, 0.4);
+    list-style-type: none;
+    position: absolute;
+    top: 100%;
+    z-index: 99;
+    padding-left: 0;
+    margin: 4px 0 0 0;
+    min-width: 135px;
+    box-shadow: 1px 1px 0px rgba(0,0,0,.5);
+    border-radius: .125rem;
+    font-size: .75rem;
+  }
+  
+  .files-action-menu .menu {
+    right: 0;
+  }
+  
+  .files-action-menu [role=menuitem] {
+    cursor: pointer;
+    padding: .25rem .5rem .15rem .5rem;
+    border-bottom: 1px solid #EEE;
+  }
+  
+  .files-action-menu [role=menuitem]:hover,
+  .files-action-menu [role=menuitem]:focus {
+    color: #064a86;
+  }
+  
+  .files-action-menu [role=menuitem].is-selected {
+    cursor: default;
+    font-weight: bold;
+  }
+  

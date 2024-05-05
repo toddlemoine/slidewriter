@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i");
+.theme-basic .slide {
+  background: white;
+  color: black;
+  font-family: "Lato", "Calibri", "Helvetica Neue", Arial, sans-serif;
+}
+
+.theme-basic .slide-content {
+  font-size: .9em;
+}
+
+.theme-basic .slide-content h1 {
+  font-size: 1.85em;
+}
+
+.theme-basic .slide-content h2 {
+  font-size: 1.375em;
+}
+
+.theme-basic .slide-content h3 {
+  font-size: 1.2em;
+}
+
+.theme-basic .slide-content h4 {
+  font-size: 1em;
+}
+
+.theme-basic .slide-content h5 {
+  font-size: .85em;
+}
+
+.theme-basic .slide-content h1, 
+.theme-basic .slide-content h2, 
+.theme-basic .slide-content h3,
+.theme-basic .slide-content h4 {
+    text-align: center;
+}
+
+.theme-basic .slide-content > p,
+.theme-basic .slide-content > blockquote,
+.theme-basic .slide-content > ol,
+.theme-basic .slide-content > ul {
+  width: 90%;
+}
+
+.theme-basic #slide-0 .slide-content {
+    text-align: center;
+}

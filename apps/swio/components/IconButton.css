@@ -1,0 +1,10 @@
+.icon-button {
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+.icon-button img {
+    height: 1.375rem;
+}
+

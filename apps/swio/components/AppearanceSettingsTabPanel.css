@@ -1,0 +1,19 @@
+.appearance-settings-tab-panel .heading {
+    font-weight: normal;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.appearance-settings-tab-panel .field-label {
+    width: 105px;
+}
+
+.appearance-settings-tab-panel select,
+.appearance-settings-tab-panel input[type="text"],
+.appearance-settings-tab-panel input[type="range"] {
+    width: 175px;
+}
+
+.appearance-settings-tab-panel .help-text {
+    font-size: inherit;
+}

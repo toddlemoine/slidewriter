@@ -1,0 +1,30 @@
+.button {
+  font-family: inherit;
+  font-size: inherit;
+  padding: .5rem;
+  background: hsla(210, 17%, 90%, 1);
+  color: #202020;
+  border: none;
+  border-radius: .15rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.button:hover {
+  background:hsla(210, 17%, 85%, 1);
+  color: #202020;
+}
+
+.button[disabled] {
+  opacity: .5;
+  pointer-events: none;
+}
+
+.button .image-icon,
+.button .icon {
+  width: 16px;
+  height: 16px;
+  margin-right: .25rem;
+}
+

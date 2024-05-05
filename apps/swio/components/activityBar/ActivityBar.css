@@ -1,0 +1,122 @@
+.activity-bar {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+  font-size: 0.9375rem;
+  background: #fff;
+  padding: 0 0.5rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.activity-bar:focus-within,
+.activity-bar:hover {
+  opacity: 1;
+}
+
+.activity-bar-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-bar-group.spacer {
+  flex: 1 auto;
+}
+
+.activity-bar-button,
+.activity-bar-button.trigger {
+  display: block;
+  margin-right: 0.25rem;
+  background: hsla(219, 8%, 45%, 1);
+  color: #fff;
+  font-size: inherit;
+  font-weight: normal;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  padding: 0.25rem 0rem;
+}
+
+.activity-bar-button.primary {
+  background: hsla(208, 100%, 43%, 1);
+}
+
+.activity-bar-button .content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.125rem 0.5rem;
+}
+
+.activity-bar-button:hover,
+.activity-bar-button:focus,
+.activity-bar-button.trigger:hover,
+.activity-bar-button.trigger:focus {
+  border-color: rgba(255, 255, 255, 0.175);
+}
+
+.activity-bar-group.file-actions .button {
+  margin-right: 0.5rem;
+}
+
+.activity-bar-group.user-actions .activity-bar-button,
+.activity-bar-group.site-actions .activity-bar-button {
+  background: none;
+  box-shadow: none;
+}
+
+.activity-bar-group.user-actions .content {
+  text-decoration: underline;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.activity-bar-link {
+  padding: 0.5rem;
+  border-radius: 0.125rem;
+}
+
+.activity-bar .link-button,
+.activity-bar-link {
+  margin: 0 0.5rem;
+}
+
+.activity-bar .link-button,
+.activity-bar-link,
+.activity-bar-link:visited {
+  color: hsl(340, 91%, 41%);
+  text-decoration: none;
+}
+
+.activity-bar .mailing-list-link {
+  padding: 0.25rem 0.35rem;
+  border-radius: 0.25rem;
+  border: 2px solid hsl(340, 91%, 41%);
+  font-weight: bold;
+}
+
+.activity-bar .mailing-list-link .cta-text {
+    font-size: 80%;
+    font-weight: normal;
+    display: block;
+}
+
+.activity-bar .mailing-list-link:hover {
+    background: hsl(340, 91%, 41%);
+    color: #fff;
+}
+
+.activity-bar-link:hover,
+.activity-bar-link:focus {
+  color: #fff;
+  background: hsl(340, 91%, 41%);
+}
+
+.activity-bar .logo {
+  width: 132px;
+  display: block;
+  vertical-align: bottom;
+}

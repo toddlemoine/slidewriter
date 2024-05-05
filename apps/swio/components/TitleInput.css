@@ -1,0 +1,27 @@
+.title-input {
+    font-size: 1rem;
+    border: 1px solid transparent;
+    display: inline-block;
+    padding: .5rem;
+    outline: inherit;
+    width: 100%;
+}
+.title-input.untitled .title-input-text {
+    color: #999;
+}
+.title-input input {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+.title-input:hover {
+    border-color: #ddd;
+    cursor: pointer;
+}
+
+.title-input.editing {
+    border-color: blue;
+}

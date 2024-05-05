@@ -1,0 +1,49 @@
+.files-panel {
+    padding: .25rem;
+    box-shadow: 3px 0px 10px rgba(0,0,0,.2);
+}
+
+.files-panel header {
+    padding: .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-bottom: 1px solid hsla(0, 0%, 93%, 1);
+    width: 100%;
+}
+
+.files-list {
+    width: 100%;
+    font-size: 1rem;
+}
+
+.files-panel .activity-dot {
+    margin-right: .5rem;
+}
+
+.files-list-item {
+    line-height: 1.2rem;
+    padding: .75rem .5rem .7rem .25rem;
+    border-bottom: 1px solid hsla(204, 25%, 90%, 1);
+    display: flex;
+    align-items: center;
+}
+
+.files-list-item:focus-within {
+    background: hsla(204, 20%, 96%, 1);
+}
+
+.files-list-item-details  {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.files-list-item-title {
+    font-weight: 600;
+    color: #0271c9;
+}
+
+.files-list-item-title:focus {
+    outline: none;
+}

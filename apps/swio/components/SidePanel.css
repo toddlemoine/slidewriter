@@ -1,0 +1,55 @@
+.side-panel {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 600px;
+    background: #fff;
+    border-left: 1px solid #ddd;
+    z-index: 10;
+    display: grid;
+    grid-template-rows: [header] 3rem [header-end content] auto [content-end];
+}
+
+.side-panel.left {
+    left: 0;
+}
+
+.side-panel.right {
+    right: 0;
+}
+
+.side-panel header {
+    grid-row: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #42464c;
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.side-panel .content {
+    grid-row: content;
+    overflow-y: auto;
+    height: auto;
+    font-size: .825rem;
+}
+
+.side-panel .title {
+    font-weight: normal;
+    font-size: 1.25rem;
+    flex: 1;
+}
+
+.side-panel .close-button {
+    font-size: 1.25rem;
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+.side-panel .title-icon {
+    flex: 0;
+    height: 25px;
+    margin-right: .5rem;
+}

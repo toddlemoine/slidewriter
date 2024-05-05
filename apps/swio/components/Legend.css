@@ -1,0 +1,11 @@
+.legend {
+    padding: .25rem;
+    font-weight: bold;
+}
+
+.legend input[type="checkbox"] {
+    margin-right: .25rem;
+    vertical-align: text-top;
+    font-size: inherit;
+}
+

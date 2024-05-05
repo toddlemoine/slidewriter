@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Francois+One");
+.theme-lessig .slide {
+  background: white;
+  color: black;
+  text-align: center;
+  font-family: "Francois One", "Helvetica Neue", Arial, sans-serif;
+}
+
+.theme-lessig .slide-content > p,
+.theme-lessig .slide-content > blockquote,
+.theme-lessig .slide-content > ol,
+.theme-lessig .slide-content > ul {
+  width: 90%;
+}

@@ -1,0 +1,11 @@
+.file-tab-files {
+    position: relative;
+}
+
+.file-tab-files .button {
+    position: absolute;
+    padding: .25rem .5rem;
+    width: auto;
+    right: .25rem;
+    top: .125rem;
+}

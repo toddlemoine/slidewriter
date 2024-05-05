@@ -1,0 +1,14 @@
+.editor-toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.editor-toolbar .dropdown-menu .editor-toolbar-button {
+    margin: 0;
+}
+
+.editor-toolbar .dropdown-menu .trigger {
+    padding: 0;
+}

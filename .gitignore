@@ -1,0 +1,24 @@
+# package directories
+tags
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# AWS deploy artifacts
+aws
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+
+# Cypress
+cypress/screenshots/*
+cypress/videos/*
+
+# Build and deploy
+dist
+_dist
+site/_site

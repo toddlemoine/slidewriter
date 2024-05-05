@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i");
+.theme-friday .slide {
+  background: white;
+  color: black;
+  text-align: left;
+  font-family: "PT Sans", "Helvetica Neue", Arial, sans-serif;
+  padding: 0;
+}
+
+.theme-friday .slide-content {
+    justify-content: start;
+    padding: .5em;
+}
+
+.theme-friday #slide-0.slide {
+    text-align: center;
+}
+
+.theme-friday #slide-0 .slide-content {
+    justify-content: center;
+}
+
+.theme-friday .slide-content > p,
+.theme-friday .slide-content > blockquote,
+.theme-friday .slide-content > ol,
+.theme-friday .slide-content > ul {
+  width: 100%;
+}
+
+.theme-friday .slide-content>h2, 
+.theme-friday .slide-content>h3 {
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    background: steelblue;
+    color: #fff;
+}
+
+.theme-friday .slide-content>h2 {
+    font-size: 1.5em;
+    margin: -0.35em -0.35em .25em -0.35em;
+    padding: .35em;
+}
+
+.theme-friday .slide-content>h3 {
+    font-size: 1.4em;
+    margin: -0.395em -0.395em .25em -0.395em;
+    padding: .395em;
+    background: hsla(207, 24%, 39%, 1);
+}

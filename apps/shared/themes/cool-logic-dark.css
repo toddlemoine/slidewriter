@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700");
+.theme-cool-logic-dark .slide {
+    background: rgb(33, 39, 46);
+    color: white;
+    text-align: left;
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    padding: 0.75em;
+}
+
+.theme-cool-logic-dark h1,
+.theme-cool-logic-dark h2,
+.theme-cool-logic-dark h3,
+.theme-cool-logic-dark h4,
+.theme-cool-logic-dark h5 {
+    font-weight: 700;
+}
+
+.theme-cool-logic-dark .slide-content {
+    font-size: 0.9em;
+}
+
+.theme-cool-logic-dark .slide-content a,
+.theme-cool-logic-dark .slide-content a:visited {
+    color: tomato;
+}
+
+.theme-cool-logic-dark .slide-content h1 {
+    font-size: 1.75em;
+}
+
+.theme-cool-logic-dark .slide-content h2 {
+    font-size: 1.35em;
+}
+
+.theme-cool-logic-dark .slide-content h3 {
+    font-size: 1.2em;
+}
+
+.theme-cool-logic-dark .slide-content h4 {
+    font-size: 1em;
+}
+
+.theme-cool-logic-dark .slide-content h5 {
+    font-size: 0.85em;
+}
+
+.theme-cool-logic-dark .slide-content>h2 {
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+    padding-bottom: 0.5rem;
+}
+
+.theme-cool-logic-dark .slide-content em {
+    background: #ef2d0a;
+    color: white;
+    display: inline-block;
+    font-weight: 700;
+    font-style: normal;
+    padding: 0 0.2rem;
+}
+
+.theme-cool-logic-dark .slide-content>ul {
+    padding-left: 0.75em;
+}
+
+.theme-cool-logic-dark .slide-content>ol {
+    padding-left: 1em;
+}
+
+.theme-cool-logic-dark .slide-content li {
+    margin-bottom: 0.125em;
+}
+
+.theme-cool-logic-dark blockquote {
+    width: 95%;
+    margin: 0 auto;
+}

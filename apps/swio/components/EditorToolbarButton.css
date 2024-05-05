@@ -1,0 +1,22 @@
+.editor-toolbar-button {
+    font-size: .8rem;
+    background: #fff;
+    color: #212121;
+    border: none;
+    cursor: pointer;
+    padding: .5rem .5rem .6rem .5rem;
+    border-right: 1px solid hsl(0, 0%, 87%);
+    display: flex;
+    align-items: center;
+}
+
+.editor-toolbar-button[aria-pressed="true"], 
+.editor-toolbar-button:hover,
+.editor-toolbar-button:focus {
+    background: hsl(214, 16%, 92%);
+}
+
+.editor-toolbar-button .image-icon {
+    width: 15px;
+    margin-right: .25rem;
+}

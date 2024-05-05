@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho|Domine:400,700");
+.theme-mod-kitchen.presentation,
+.theme-mod-kitchen.full-presentation {
+  background-image: url("/assets/mod-kitchen-bg.jpg");
+  background-size: cover;
+  padding: 1rem;
+}
+
+.theme-mod-kitchen .slide {
+  background: rgba(255, 255, 255, 0.825);
+  color: #212121;
+  font-family: "Domine", "Helvetica Neue", Arial, sans-serif;
+  padding: 0.5em;
+}
+
+.theme-mod-kitchen h1,
+.theme-mod-kitchen h2,
+.theme-mod-kitchen h3,
+.theme-mod-kitchen h4,
+.theme-mod-kitchen h5 {
+  font-family: "Rancho", sans-serif;
+  color: #1654ea;
+  text-align: center;
+}
+
+.theme-mod-kitchen #slide-0 .slide-content {
+  text-align: center;
+}

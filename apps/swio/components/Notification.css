@@ -1,0 +1,31 @@
+.notification {
+    background: #fff;
+    border-radius: .125rem;
+    width: 400px;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    padding: .5rem;
+    font-size: .8rem;
+    box-shadow: 1px 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification .primary-button {
+    box-shadow: none;
+    border-radius: .125rem;
+    background-color: hsla(192, 84%, 32%, 1);
+    color: #fff;
+    font-size: inherit;
+    padding: .35rem .5rem .5rem .5rem;
+}
+
+.notification .content {
+    line-height: 1.2rem;
+}
+
+.notification footer {
+    text-align: right;
+}

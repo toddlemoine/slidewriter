@@ -1,0 +1,13 @@
+.presentation {
+  position: relative;
+  /* width: 100%; */
+  /* height: 100%; */
+}
+
+.presentation .slide {
+  background: #ddd;
+}
+
+.presentation::backdrop {
+  background: rgb(0, 0, 0);
+}

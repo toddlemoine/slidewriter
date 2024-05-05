@@ -1,0 +1,31 @@
+.appearance-menu {
+    display: grid;
+    grid-template-columns: [tabs] 115px [panels] 1fr;
+    width: 100%;
+}
+
+.appearance-menu .tablist {
+    grid-column: tabs;
+}
+
+.appearance-menu .panel {
+    grid-column: panels;
+}
+
+.appearance-menu .tab {
+    padding: .25rem .5rem;
+}
+
+.appearance-menu .tab[aria-selected=true] {
+    font-weight: bold;
+}
+
+.appearance-menu .tab:last-child {
+    border: none;
+}
+
+.appearance-menu .tab-list {
+    padding: 0;
+    margin-top: 1.25rem;
+    line-height: 1.2rem;
+}

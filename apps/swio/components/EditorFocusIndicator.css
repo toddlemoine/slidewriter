@@ -1,0 +1,9 @@
+.editor-focus-indicator {
+  height: 0.25rem;
+  background: #b2b2b2;
+  transition: background 150ms linear;
+}
+
+.editor-focus-indicator.active {
+  background: rgb(59, 153, 252);
+}

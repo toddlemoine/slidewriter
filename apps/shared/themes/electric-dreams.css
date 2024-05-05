@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=VT323|Fira+Mono');
+
+.theme-electric-dreams .slide {
+  background: rgba(0,0,0,.9);
+  color: yellowgreen;
+  text-align: left;
+  font-family: "Fira Mono", "Helvetica Neue", Arial, sans-serif;
+  padding: 1rem 2rem;
+}
+
+.theme-electric-dreams h1, 
+.theme-electric-dreams h2, 
+.theme-electric-dreams h3, 
+.theme-electric-dreams h4, 
+.theme-electric-dreams h5 {
+  font-family: "VT323", sans-serif;
+  text-align: center;
+}
+
+.theme-electric-dreams a {
+  color: #fff;
+}
+

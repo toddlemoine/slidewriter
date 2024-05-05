@@ -1,0 +1,44 @@
+.keyboard-help section {
+    display: flex;
+    flex-direction: column;
+}
+
+.key-list {
+    flex: 1 1 auto;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.key-list caption {
+    font-weight: bold;
+    text-align: left;
+}
+
+.keyset {
+    text-align: right;
+    width: 200px;
+    max-width: 200px;
+}
+
+.keyset kbd {
+    border-radius: 3px;
+    background: whitesmoke;
+    border: 1px solid #adadad;
+    padding: .15rem .35rem;
+    margin: 0 .1rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: .8rem;
+    line-height: 1.75rem;
+    box-shadow: 1px 1px 0px rgba(0, 0, 0, .375);
+}
+
+.keyset .key-join {
+    font-size: .75rem;
+    margin: 0 .25rem;
+}
+
+.keys-desc {
+    padding-left: .5rem;
+    width: auto;
+}

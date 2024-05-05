@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Rancho|Domine");
+.theme-bokay.presentation,
+.theme-bokay.full-presentation {
+    background-image: url("/assets/bokay-bg.jpg");
+    background-size: cover;
+    padding: 1rem;
+}
+
+.theme-bokay .slide {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    font-family: "Domine", "Helvetica Neue", Arial, sans-serif;
+    padding: 0.25em;
+}
+
+.theme-bokay a {
+    color: #ffee26;
+}
+
+.theme-bokay h1,
+.theme-bokay h2,
+.theme-bokay h3,
+.theme-bokay h4,
+.theme-bokay h5 {
+    font-family: "Rancho", sans-serif;
+}
+
+.theme-bokay .slide-content>p,
+.theme-bokay .slide-content>blockquote,
+.theme-bokay .slide-content>ol,
+.theme-bokay .slide-content>ul {
+    width: 85%;
+}
+
+.theme-bokay p,
+.theme-bokay ol,
+.theme-bokay ul {
+    margin: 0 auto;
+}
+
+.theme-bokay li {
+    margin-bottom: 0.5em;
+}
+
+.theme-bokay pre {
+    margin-top: 0.5rem;
+}

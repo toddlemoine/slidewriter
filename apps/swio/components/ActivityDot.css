@@ -1,0 +1,8 @@
+
+.activity-dot {
+    width: 10px;
+    height: 10px;
+}
+.activity-dot.on .circle-icon {
+    fill: green;
+}

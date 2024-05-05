@@ -1,0 +1,7 @@
+.input-group.horizontal {
+  display: inline-block;
+}
+
+.input-group.horizontal .input-group-item {
+  margin-right: 0.25em;
+}

@@ -1,0 +1,20 @@
+.editor-tab-panel {
+    margin: 0 auto;
+    font-size: .9375rem; 
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.editor-tab-panel .field-label {
+    margin-right: .75rem;
+    width: 145px;
+}
+
+.editor-tab-panel .help-text {
+    width: 95%;
+    font-size: inherit;
+    margin: 1rem;
+    padding: .75rem;
+    background: rgba(98, 104, 115, .1);
+}

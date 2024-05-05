@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,400i,700,700i');
+.theme-calm-dark .slide {
+    background: #212121;
+    color: white;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.theme-calm-dark a {
+    color: #ffee26;
+}
+
+.theme-calm-dark h1,
+.theme-calm-dark h2,
+.theme-calm-dark h3,
+.theme-calm-dark h4,
+.theme-calm-dark h5 {
+    font-family: Oswald;
+    text-align: center;
+    font-weight: normal;
+}
+
+.theme-calm-dark .slide-content h1 {
+    font-size: 2em;
+}
+
+.theme-calm-dark .slide-content h2 {
+    font-size: 1.5em;
+}
+
+.theme-calm-dark .slide-content h3 {
+    font-size: 1.25em;
+}
+
+.theme-calm-dark .slide-content h4 {
+    font-size: 1em;
+}
+
+.theme-calm-dark .slide-content h5 {
+    font-size: .85em;
+}
+
+.theme-calm-dark .slide-content>h2 {
+    margin-bottom: 0.25em;
+}
+
+.theme-calm-dark blockquote {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    border-left: 4px solid #ddd;
+    border-right: 4px solid #ddd;
+    padding: 0 1rem;
+}
+
+.theme-calm-dark #slide-0 .slide-content {
+    text-align: center;
+}

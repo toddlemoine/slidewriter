@@ -1,0 +1,34 @@
+.site-header {
+  display: flex;
+  flex-direction: column;
+  padding: .5rem;
+  z-index: 1;
+  font-size: .8rem;
+  background: rgba(0,0,0,.175);
+  border-right: 1px solid rgba(0,0,0,.1);
+}
+
+.site-header:focus-within, 
+.site-header:hover {
+  opacity: 1.0;
+}
+
+.site-header .swio-circle-logo {
+  width: 14px;
+  height: 14px;
+}
+
+.site-header .swio-circle-logo,
+.site-header .link-button {
+  margin-right: .25rem;
+}
+
+.site-header .link-button {
+  color: rgba(255,255,255,0.75);
+  text-shadow: 0px 0px 1px rgba(0,0,0,.95);
+  text-decoration: none;
+}
+
+.site-header .link-button:hover {
+  text-decoration: underline;
+}

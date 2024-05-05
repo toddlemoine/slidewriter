@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700');
+
+.theme-game-show .slide {
+  background: blue;
+  color: white;
+  text-align: left;
+  font-family: "Libre Baskerville", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 400;
+  text-shadow: 3px 3px 10px black;
+  padding: .5rem 2rem;
+}
+
+.theme-game-show h1,  
+.theme-game-show h2,  
+.theme-game-show h3,  
+.theme-game-show h4,  
+.theme-game-show h5 { 
+  font-weight: 700;
+  text-align: center;
+}
+
+.theme-game-show a {
+  color: #ffee26;
+}
+
+.theme-game-show code {
+  text-shadow: none;
+}
+
+.theme-game-show .slide-content p, 
+.theme-game-show .slide-content blockquote, 
+.theme-game-show .slide-content ol, 
+.theme-game-show .slide-content ul {
+  line-height: 175%;
+}
+

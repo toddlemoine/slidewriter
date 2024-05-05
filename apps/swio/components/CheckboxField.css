@@ -1,0 +1,7 @@
+.checkbox-field {
+  align-items: baseline;
+}
+
+.checkbox-field input + label {
+  margin-left: .25rem;
+}

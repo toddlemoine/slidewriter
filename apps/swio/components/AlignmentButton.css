@@ -1,0 +1,26 @@
+.alignment-button {
+  padding: .25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.alignment-button input[type="radio"] {
+  margin-right: .25rem;
+}
+
+.alignment-button label {
+  cursor: pointer;
+}
+
+
+.alignment-button[aria-disabled="true"] label {
+  cursor: default;
+}
+
+.alignment-button .icon {
+  width: 15px;
+  height: 15px;
+}
+
+

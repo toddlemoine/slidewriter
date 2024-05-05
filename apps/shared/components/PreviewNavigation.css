@@ -1,0 +1,13 @@
+.preview-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.preview-navigation .button:first-child {
+    margin-right: .125rem;
+}
+
+.preview-navigation .button:last-child {
+    margin-left: .125rem;
+}

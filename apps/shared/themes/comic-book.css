@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Bangers");
+.theme-comic-book .slide {
+    background: white;
+    color: #212121;
+    text-align: left;
+    font-family: "Bangers", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 400;
+    box-shadow: inset 0px 0px 85px rgba(0, 0, 0, 0.2);
+    padding: 0.25em;
+}
+
+.theme-comic-book h1,
+.theme-comic-book h2,
+.theme-comic-book h3,
+.theme-comic-book h4,
+.theme-comic-book h5 {
+    font-weight: 700;
+    text-shadow: 0.015em 0.015em 0em rgba(0, 0, 0, 1);
+    text-align: center;
+    color: red;
+}
+
+.theme-comic-book .slide-content {
+    border: 0.25em inset rgba(0, 0, 0, 0.85);
+    border-radius: 8px;
+    padding: 0.5em;
+    font-size: 0.9em;
+}
+
+.theme-comic-book .slide-content h1 {
+    font-size: 2em;
+}
+
+.theme-comic-book .slide-content h2 {
+    font-size: 1.5em;
+}
+
+.theme-comic-book .slide-content h3 {
+    font-size: 1em;
+}
+
+.theme-comic-book .slide-content h4 {
+    font-size: 0.85em;
+}
+
+.theme-comic-book .slide-content h5 {
+    font-size: 0.5em;
+}
+
+.theme-comic-book .slide-content>h2 {
+    margin-bottom: 0.25em;
+}

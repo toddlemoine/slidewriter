@@ -1,0 +1,39 @@
+.slide-footer {
+  position: absolute;
+  padding: 0.5em;
+  right: 0;
+  bottom: 0;
+  font-size: 0.25em;
+  width: 100%;
+  display: flex;
+  line-height: 1em;
+}
+
+.slide-footer.dark {
+  color: #fff;
+}
+
+.slide-footer.light {
+  color: #000;
+}
+
+.slide-footer.dark .icon svg {
+  fill: #fff;
+}
+
+.slide-footer.light .icon svg {
+  fill: #000;
+}
+
+.slide-footer .icon {
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  margin-right: 0.25em;
+}
+
+.slide-footer-content {
+  display: flex;
+  align-items: center;
+  line-height: 1em;
+}

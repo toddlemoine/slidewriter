@@ -1,0 +1,8 @@
+.about .contents {
+  padding: 1rem;
+  line-height: 140%;
+}
+
+.about h2 { margin-top: 1rem; margin-bottom: .5rem; }
+.about p, .about ul { margin-bottom: 1rem; }
+.about ul { margin-left: 1rem; }

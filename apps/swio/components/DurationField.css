@@ -1,0 +1,12 @@
+
+.duration-input,
+.duration-unit {
+    margin-left: .5rem;
+    font-size: inherit;    
+}
+
+.duration-input {
+  width: 3rem;
+  text-align: center;
+  padding: .25rem;
+}

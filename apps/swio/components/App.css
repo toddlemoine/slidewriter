@@ -1,0 +1,31 @@
+.app {
+    height: inherit;
+}
+/* PREVIEW MODE */
+
+.is-previewing {
+    background: #333;
+}
+
+.is-previewing  .preview-wrapper {
+    grid-row-start: 1;
+    grid-row-end: 33;
+    grid-column-start: 1;
+    grid-column-end: 34;
+    margin: 1rem;
+    padding: 0;
+} 
+
+.is-previewing .preview-footer {
+    color: rgba(255,255,255,.75);
+}
+
+.is-previewing .toolbar {
+    margin: 0 0 1rem 0;
+} 
+
+.is-previewing .editor, 
+.is-previewing .activity-bar, 
+.is-previewing .file-toolbar-group {
+    display: none;
+}

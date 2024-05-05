@@ -1,0 +1,21 @@
+.fieldset {
+  border: none;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding: .5rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.fieldset.no-legend {
+  border-top: none;
+}
+
+.fieldset[disabled] .field {
+  color: #5e5e5e;
+}
+
+.fieldset legend {
+  font-weight: 600;
+  padding: 0 .25rem;
+  color:  rgb(59, 62, 69);
+}

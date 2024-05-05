@@ -1,0 +1,9 @@
+.help-toolbar {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.help-toolbar .icon-button {
+    margin-left: .25rem;
+}

@@ -1,0 +1,29 @@
+.preview {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+}
+
+.preview.playing .presentation {
+    outline: none;
+}
+
+.preview.show-text-boundaries .slide-content p,
+.preview.show-text-boundaries .slide-content>ol,
+.preview.show-text-boundaries .slide-content>ul,
+.preview.show-code-boundaries .slide-content>pre code {
+    border: 1px dashed red;
+}
+
+.preview-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,.1);
+}
+
+.preview-wrapper .preview-footer {
+    margin-top: .5rem;
+}

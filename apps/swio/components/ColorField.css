@@ -1,0 +1,9 @@
+.color-field {
+  display: inline-flex;
+  align-items: center;
+}
+
+.color-field input[type="text"] {
+  width: 5em;
+  margin-right: 0.25em;
+}

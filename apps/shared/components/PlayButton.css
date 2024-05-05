@@ -1,0 +1,5 @@
+.play-button {
+  font-size: inherit;
+  padding: .5rem .5rem;
+  white-space: nowrap;
+}

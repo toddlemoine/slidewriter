@@ -1,0 +1,7 @@
+.presentation-stage {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1 auto;
+  flex-direction: column;
+}

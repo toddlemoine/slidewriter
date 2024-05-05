@@ -1,0 +1,15 @@
+.error-notifications {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 30;
+    width: 100%;
+    padding-top: 5rem;
+    height: 100vh;
+    background: rgba(255,255,255,.8);
+    box-shadow: inset 0px 0px 105px rgba(0,0,0,.4);
+}

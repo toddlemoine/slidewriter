@@ -1,0 +1,56 @@
+.general-help {
+    overflow: auto;
+}
+
+.general-help.side-panel .content {
+    font-size: .9325rem;
+    line-height: 140%;
+    padding: 1rem;
+}
+
+.general-help code {
+    background: hsl(53, 100%, 83%);
+    padding: .0125rem .25rem;
+    margin-bottom: .25rem;
+    display: inline-block;
+}
+
+.general-help pre {
+    background: #e8eef8;
+    padding: .5rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    overflow: auto;
+}
+
+.general-help pre code {
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.general-help .content h2 {
+    font-weight: normal;
+    margin-top: 2rem;
+    margin-bottom: .75rem;
+    border-bottom: 1px solid #333;
+    padding-bottom: .75rem;
+}
+
+.general-help .content h2:first-child {
+  margin-top: 0;
+}
+
+.general-help .content h3 {
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.general-help .content p {
+    margin-bottom: 1rem;
+}
+
+.general-help .content ul,
+.general-help .content ol {
+    margin: 0 0 1rem 1.5rem;
+}

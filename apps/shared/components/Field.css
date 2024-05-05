@@ -1,0 +1,23 @@
+.field {
+    display: flex;
+    flex-direction: row;
+    padding: .25rem;
+    align-items: center;
+    font-size: .8325rem;
+}
+
+.field .field-label {
+    align-items: flex-end;
+    flex: 0 0 auto;
+    text-align: right;
+    margin-right: .5rem;
+}
+
+.field input {
+    font-size: inherit;
+    padding: .25rem;
+}
+
+.field select {
+    font-size: inherit;
+}

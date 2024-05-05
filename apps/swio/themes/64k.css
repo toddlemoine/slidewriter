@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,400i,700,700i");
+.theme-64k .slide {
+  background: #837dd8;
+  color: #fff;
+  font-family: "Fira Mono", "Consolas", "Inconsolata", "Monaco", monospace;
+}
+
+.theme-64k .slide-content {
+  background: #443fa4;
+  font-size: .9em;
+}
+
+.theme-64k .slide-content a {
+    color: #AAFFEE;
+}
+
+.theme-64k .slide-content h1 {
+  font-size: 1.85em;
+}
+
+.theme-64k .slide-content h2 {
+  font-size: 1.375em;
+}
+
+.theme-64k .slide-content h3 {
+  font-size: 1.2em;
+}
+
+.theme-64k .slide-content h4 {
+  font-size: 1em;
+}
+
+.theme-64k .slide-content h5 {
+  font-size: .85em;
+}
+
+.theme-64k .slide-content h1, 
+.theme-64k .slide-content h2, 
+.theme-64k .slide-content h3,
+.theme-64k .slide-content h4 {
+    font-weight: bold;
+    color: #837dd8;
+    text-align: center;
+}
+
+.theme-64k .slide-content > p,
+.theme-64k .slide-content > blockquote,
+.theme-64k .slide-content > ol,
+.theme-64k .slide-content > ul {
+  width: 90%;
+}
+
+.theme-64k #slide-0 .slide-content {
+    text-align: center;
+}

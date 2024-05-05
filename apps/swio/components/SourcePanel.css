@@ -1,0 +1,15 @@
+.source-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.source-panel header {
+  z-index: 1;
+  position: static;
+  flex: 0;
+  width: 100%;
+}
+
+.source-panel .shadow {
+  box-shadow: 0px 3px 5px rgba(0,0,0,.15);
+}

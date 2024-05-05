@@ -1,0 +1,7 @@
+.form-error {
+    background: #8700d4;
+    color: #fff;
+    padding: .5rem;
+    font-weight: bold;
+    border-radius: .125rem;
+}

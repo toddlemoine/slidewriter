@@ -1,0 +1,8 @@
+.editor-presentation-tabs {
+    display: flex;
+    flex-direction: row;
+}
+
+.editor-presentation-tabs .button {
+    margin-right: .25rem;
+}

@@ -1,0 +1,7 @@
+.skip-link {
+  background: none;
+  border: none;
+  color: yellow;
+  text-decoration: underline;
+  font-family: inherit;
+}

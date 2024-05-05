@@ -1,0 +1,4 @@
+.alignment-chooser {
+  display: flex;
+  flex-direction: row;
+}
