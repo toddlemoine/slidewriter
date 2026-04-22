@@ -4,54 +4,53 @@
 
 Sometimes something is worth saying on every slide, and now you
 can. Create a slide footer that shows your online handle, your
-organization's name, or maybe a reminder message, such as, 
-"CONFIDENTIAL." Serious stuff, and now you have serious support 
-for it. Click the Footer sidebar item to customize your 
-presentation's footer. Add text, change the background color, or 
-fade it to create a subtle watermark effect. 
+organization's name, or maybe a reminder message, such as,
+"CONFIDENTIAL." Serious stuff, and now you have serious support
+for it. Click the Footer sidebar item to customize your
+presentation's footer. Add text, change the background color, or
+fade it to create a subtle watermark effect.
 
 ## New fonts and themes
 
 It's been a while since we've touched themes and fonts, and while
 you can customize any presentation, sometimes you just want someone
-to do the work for you. We get it. That's why we added two new themes, 
-Cool Logic and Cool Logic (Dark). Featuring some of our new fonts, we 
+to do the work for you. We get it. That's why we added two new themes,
+Cool Logic and Cool Logic (Dark). Featuring some of our new fonts, we
 think they manage to pull off "professional" and "snazzy" at the same
 time. Try it out from the newly renamed Appearance sidebar item.
 
 ## A little more responsive
 
-We're taking a tiny step toward making the site more responsive to 
-narrow screen sizes with a new veritical layout when the browser 
-window is narrow enough. This makes better use of your space, giving 
+We're taking a tiny step toward making the site more responsive to
+narrow screen sizes with a new veritical layout when the browser
+window is narrow enough. This makes better use of your space, giving
 you enough room to write and preview your slides comfortably.
 
 ## Bug Fixes
 
-* We fixed an issue with a twitchy input box in the Playback options, and
-took the opportunity to add some better validation messages for it, too.
-* When using an "auto advance" playback option, we no longer auto advance
-once the presentation has reached the end. That way, you can go back and
-forth in the presentation during a Q+A session without it continuing to
-advance to the next slide.
+-   We fixed an issue with a twitchy input box in the Playback options, and
+    took the opportunity to add some better validation messages for it, too.
+-   When using an "auto advance" playback option, we no longer auto advance
+    once the presentation has reached the end. That way, you can go back and
+    forth in the presentation during a Q+A session without it continuing to
+    advance to the next slide.
 
 ---
-
 
 18 May 2018
 
 ## Support for Gists
 
-We like what we've got going so far on Slidewriter.io, but can't help
-but feel like we're missing something. Something like support for 
-saving and loading presentations, instead of just locking you into 
-always working on a single presentation. We also want to make it 
+We like what we've got going so far on Slidewriter.app, but can't help
+but feel like we're missing something. Something like support for
+saving and loading presentations, instead of just locking you into
+always working on a single presentation. We also want to make it
 easier to share presentations, too.
 
 And we're working on that, but in the meantime, if you have a Github
-account, you can [use gists to share your presentation on Slidewriter.io](/gist).
+account, you can [use gists to share your presentation on Slidewriter.app](/gist).
 Export your presentation and keep it as a gist and you can share it
-out.  
+out.
 
 ## Export
 
@@ -63,9 +62,9 @@ as theme and any customizations you've applied.
 
 ## Fixed! Emoji in Windows
 
-We're sorry, Windows people. Our emoji library didn't work as we 
+We're sorry, Windows people. Our emoji library didn't work as we
 expected, and our emoji support was effectively broken in Windows.
-It's all better now. 
+It's all better now.
 
 ## Page up, page down
 
@@ -82,16 +81,15 @@ presentation in full-screen mode.
 
 When you close this panel, look in the lower right and you'll see
 two new buttons, one for showing the keyboard shortcuts, and one
-for help. They also load in this same side panel, which we think 
+for help. They also load in this same side panel, which we think
 is pretty sharp, too.
 
 ## Updated Help docs
 
-Speaking of help, our help docs haven't been keeping up with the 
+Speaking of help, our help docs haven't been keeping up with the
 site lately, so we've shown them some love.
 
 ## What's new is new
 
 We're getting a little meta now, but we have to mention that this
 What's New panel is new. Check here for changes as they happen!
-

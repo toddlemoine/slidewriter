@@ -4,15 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "archive": "rm aws/*.zip && zip -r aws/slidewriterio.zip package.json npm-shrinkwrap.json .ebextensions server dist",
     "build:app": "NODE_ENV=production webpack --config webpack/prod.js",
     "build": "zsh scripts/build.sh",
     "test": "cypress run",
     "test:debug": "DEBUG=cypress:* cypress open",
-    "_deploy": "npm run build && npm run archive",
-    "deploy": "npm run build && aws s3 sync dist/app s3://swio-staging --delete --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers",
-    "stage": "npm run build && aws s3 sync dist/app s3://slidewriterio-staging --delete --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers",
-    "deploy:s3": "aws s3 rm s3://slidewriterio/production && aws s3 sync dist/app s3://slidewriterio/production --grants read=uri=http://acs.amazonaws.com/groups/global/AllUsers",
     "start:dev": "webpack-dev-server --https --open --config webpack/dev.js --port 3000",
     "_start:dev": "NODE_ENV=development node ./server/bin/www",
     "_start": "NODE_ENV=production node ./server/bin/www"
